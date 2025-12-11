@@ -1,0 +1,12 @@
+
+<iostream> : input processing output of data from memory through devices this flow of data is called stream 
+
+        Input Device > Enter data > Memory > Processing> Output Data > Output Device 
+       _______________________________|_______________________________
+                 Input stream                Output Stream
+
+                 
+for example : we write code (data input) through a input device called keyboard that data go to memory 
+        then that data show (data output)through a Output device called Monitor 
+
+
