@@ -1,0 +1,17 @@
+Sabse TOP Limitation : Big Code = Big BINARY FILE size aka EXE FILE 
+
+
+Inline function bas itna kaam krta hai ki Poore code ki processing compiling ke time pe hi khatam kr deta hai 
+Jaise ki agar kuch numbers add krna hai, multipy krna hai to sab solve hokar unke sum ka answer BINARY CODE me convert hokar EXE file ban jeygi 
+
+Aur phir jab EXE file run hogi toh CPU ko sirf EXE file ko RUN krna hai
+
+Lekin jab code bada ho, code me 100-200 iteration ke loops hoge aur wahi loops jab compile hokar BINARY CODE me save hoge toh BINARY CODE ki file bhut badi banegi, jo CPU ke cache aur memory efficiency ko impact karta hai, aur speed slow kar sakta hai.
+
+Yahi kaam bina INLINE ke krte toh EXE file choti banti aur  jada fast execute hoti 
+
+Aur jab loops bina inline ke chalte hai tab BINARY CODE me loops ke COMMAND convert hote hai ansswer nhi, phir EXE file banti hai Yaha CPU ka koi kaam nhi krna hai, q ki abhi Sirf C++ --> EXE me convert hui hai RUN nhi hui hai abhi
+
+Lekin jab EXE file RUN hogi tab CPU ka kaam padega 
+CPU phir condition check krega, iteration chalyega, end result dega 
+

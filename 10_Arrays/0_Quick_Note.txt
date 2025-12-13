@@ -1,0 +1,8 @@
+Quick_Note 
+​(*) means Value inside 
+Ex:    (*a) means value inside (a)
+
+                 OR 
+
+             int *a = &b 
+ ( Value inside a ) = ( Address of b )
