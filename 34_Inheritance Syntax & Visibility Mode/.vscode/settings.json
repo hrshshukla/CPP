@@ -1,0 +1,9 @@
+{
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.suggest.showClasses": false,
+    "editor.suggest.preview": true,
+    "C_Cpp.suggestSnippets": false,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.snippetSuggestions": "top"
+}
