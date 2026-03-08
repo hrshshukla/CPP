@@ -1,0 +1,29 @@
+Infix : (m-n)*(p+q)
+Prefix : [-mn] * [+pq]
+       : *-mn+pq
+
+Postfix : [mn-]*[pq+]
+        : mn-pq+*
+
+__________________________________
+Infix : x+y*z-k
+      : ((x+(y*z))-k)
+      
+Prefix: 
+    ((x+(*yz))-k)
+    ((+x*yz)-k)
+    -+x*yzk
+
+Postfix :
+    (x+(y*z))-k
+    (x+(yz*))-k
+    (xyz*+)-k
+    xyz*+k-
+
+
+
+
+    
+
+
+        
