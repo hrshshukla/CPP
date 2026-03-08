@@ -1,0 +1,17 @@
+Important formula 
+ -- Circular Increment : i = (i+1) % arrSize;
+
+
+Dry Run for i = (i + 1) % arrSize with arrSize = 5
+
+| Current i | Expression           | New i        |
+|-----------|----------------------|--------------|
+|    i      = (i + 1) % arrSize    |              |
+|    0      | (0 + 1) % 5          | = 1  arr[1]  | 
+|    1      | (1 + 1) % 5          | = 2  arr[2]  |
+|    2      | (2 + 1) % 5          | = 3  arr[3]  |
+|    3      | (3 + 1) % 5          | = 4  arr[4]  |
+|    4      | (4 + 1) % 5          | = 0  arr[0] <-  Again started from index 0  
+|    0      | (0 + 1) % 5          | = 1  arr[1]  |
+
+=> It loops in a circular way: 0 → 1 → 2 → 3 → 4 → 0 → 1 → ...
