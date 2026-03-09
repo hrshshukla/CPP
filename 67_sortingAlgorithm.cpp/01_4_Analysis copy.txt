@@ -1,0 +1,5 @@
+-- Total Swaps          : size - 1 (in the best case when the array is already sorted)
+-- Total Comparisons    : size(size - 1) / 2 --> Worst-case scenario
+-- Time Complexity      : O(n²) in worst and average cases
+-- Stable?              : Yes, Bubble Sort is stable (same value elements retain their order)
+-- Adaptive?            : Yes (if optimized), with a flag to detect if the array is already sorted

@@ -1,0 +1,5 @@
+-- Total swaps                   : size -1  (last element get automatically sorted)
+-- Total possible comparisons    : n(n-1) / 2 ---> size(size-1) / 2
+-- Time Complexity               : n²
+-- Stable?                       : No it is not Stable the position of same value elements changes 
+-- Adaptive?                     : No, we have to do same amount of comparison even if the array is sorted 
